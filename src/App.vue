@@ -5,6 +5,9 @@ console.log(NewNum)
 </script>
 
 <template>
+  <el-button type="primary">
+    i am button
+  </el-button>
   <h1>静态：{{ num }}</h1>
   <h1 class="title">
     动态：{{ NewNum }}

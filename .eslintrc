@@ -3,5 +3,6 @@
   "rules": {
     // your rules...
     "no-console": "off"
+    "func-style": ["error", "declaration",{ "allowArrowFunctions": true }]
   }
 }

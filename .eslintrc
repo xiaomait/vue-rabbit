@@ -2,6 +2,8 @@
   "extends": "@antfu",
   "rules": {
     // your rules...
-    "no-console": "off"
+    "no-console": "off",
+    "no-extra-parens": ["error", "all", { "enforceForSequenceExpressions": false }]
+    //"func-style": ["error", "declaration", { "allowArrowFunctions": true }]
   }
 }

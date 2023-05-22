@@ -286,7 +286,7 @@ async function createOrder() {
         <el-popconfirm title="确定要删除此收货地址吗？" width="220" confirm-button-text="确认" cancel-button-text="取消"
           @confirm="delAddress(item)">
           <template #reference>
-            <el-button style="margin-left: 150px;">
+            <el-button style="position: absolute;right: 50px;">
               删除地址
             </el-button>
           </template>
@@ -363,6 +363,7 @@ async function createOrder() {
     min-height: 90px;
     display: flex;
     align-items: center;
+    position: relative;
 
     .none {
       line-height: 90px;
